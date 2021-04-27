@@ -1,0 +1,269 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+/* NAVBAR */
+nav {
+    overflow: hidden;
+    background-color: rgb(13, 91, 122);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+nav li {
+    font-family: Enemy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    text-shadow: 1px 3px 2px black;
+
+}
+#wrapper {
+    font-family: Enemy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+
+
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: Enemy;
+    font-weight: bold;
+    float: left;
+}
+/* Image Principale */
+
+#imageprincipale {
+    padding-top: 60px;
+    background: url(Media/Startpagina.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+h1 {
+    font-family: Enemy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 150px;
+    text-shadow: 1px 3px 2px black;
+}
+#premiertrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: antiquewhite;
+    text-shadow: 1px 3px 2px black;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/* Presntation */
+#presentatie {
+    background-color: rgb(13, 91, 122) ;
+    padding: 10px 0px 100px 0px;
+}
+
+#textintro {
+    padding: 0px 20%;
+    color: antiquewhite;
+    
+}
+
+#textintro h2 {
+    font-family: Enemy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+#prestaties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+    color: antiquewhite;
+}
+.afbeeldingprestaties h4{
+    font-family: Enemy, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+    color: antiquewhite;
+}
+.afbeeldingprestaties img {
+    border-radius: 10px; 
+    box-shadow: 9px 14px 18px 10px rgba(0,0,0,0.71);
+}
+.afbeeldingprestaties img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+/* Tourisme */
+#tourisme {
+    height: 1400px;
+    background-color: rgb(13, 91, 122);
+    padding: 1px 2%;
+    text-align: center;
+}
+#tourisme h2 {
+    padding-top: 60px;
+    font-family: Enemy;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+
+#tourisme a {
+    color: black;
+}
+#Natuur {
+    background: url(media/24.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tourisme a {
+    color: black;
+}
+#Oorlogsmonumenten{
+    background: url(media/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tourisme a {
+    color: black;
+}
+
+#Rivieren {
+    background: url(media/25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#Fietswegen {
+    background: url(media/154.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tourisme li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 20px -1px rgba(0,0,0,0.71);
+}
+#tourisme p{
+    height: 45px;
+    width: 235px;
+    background:antiquewhite ;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.71);
+}
+
+#tourisme #Boerderij {
+    float: left;
+}
+#Oorlogsmonumenten p, #Fietswegen p {
+    float: right;
+    background-color: antiquewhite;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0px 1px rgba(0,0,0,0.71);
+}
+/* Footer */
+footer{
+    background-color: antiquewhite;
+    color: (13, 91, 122);
+    padding: 30px 0 400px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto ;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color:  rgb(13, 91, 122);
+    color: antiquewhite;
+}
+button:hover {
+    background-color: rgb(199, 78, 22);
+    color: antiquewhite;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+footer p {
+    padding-top: 30px;
+    font-family: 'Knewave', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin-bottom: 3;
+
+}
+
+
+    
