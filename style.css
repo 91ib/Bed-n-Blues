@@ -151,7 +151,7 @@ h3 {
     padding-top: 60px;
     font-family: Enemy;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: antiquewhite;
     font-size: 2em;
     text-shadow: 1px 3px 2px black;
 }
@@ -265,5 +265,19 @@ footer p {
 
 }
 
+.video{
+    width: 600pxs;
+    display: block;
+    background-color: rgb(13, 91, 122);
 
-    
+}
+
+.h2f {
+    background-color: rgb(13, 91, 122);
+    font-family: Enemy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+
